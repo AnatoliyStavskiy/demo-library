@@ -2,6 +2,11 @@ package by.itacademy.anatoliystavskiy;
 
 public class Book {
 
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
     private int id;
     private String name;
     private String Author;
@@ -62,6 +67,10 @@ public class Book {
 
     public void setYear(int year) {
         this.year = year;
+    }
+
+    public int getPrice() {
+        return price;
     }
 
     @Override
